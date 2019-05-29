@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Mar 24 09:43:09 2019
+# Process ID: 15320
+# Current directory: F:/2019spring/codex/lab2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9028 F:\2019spring\codex\lab2_2\lab2_2.xpr
+# Log file: F:/2019spring/codex/lab2_2/vivado.log
+# Journal file: F:/2019spring/codex/lab2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/2019spring/codex/lab2_2/lab2_2.xprupdate_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+file mkdir F:/2019spring/codex/lab2_2/lab2_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open F:/2019spring/codex/lab2_2/lab2_2.srcs/sim_1/new/divide_tb.v w ]
+add_files -fileset sim_1 F:/2019spring/codex/lab2_2/lab2_2.srcs/sim_1/new/divide_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source divide_tb.tcl
+add_bp {F:/2019spring/codex/lab2_2/lab2_2.srcs/sim_1/new/divide_tb.v} 34
+close_sim
+launch_simulation
+source divide_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {100ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source divide_tb.tcl
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+close_hw
+close_sim
+launch_simulation
+source divide_tb.tcl
+close_sim

@@ -1,0 +1,39 @@
+Unable to capture context for thread 9764 in process 8720, can not generate back trace
+Unable to capture context for thread 3136 in process 8720, can not generate back trace
+Exception at PC 0x00007FFD2453BB93
+Printing stacktrace...
+
+Unable to capture context for thread 3136 in process 8720, can not generate back trace
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+[0]  [0x00007FFD2453BB93]
+[1]  [0x00007FFD2453BB93]
+[2]  [0x00007FFD2453B4A1]
+[3]  [0x00007FFD2453B3EF]
+[4]  [0x00007FFD245219FE]
+[5]  [0x00007FFD24520ED1]
+[6]  [0x00007FFD24520D76]
+[7]  [0x00007FFD244C79F6]
+[8]  [0x00007FFD244B7AFB]
+[9]  [0x00007FFD245DE90A]
+[10]  [0x00007FFD245F9F87]
+[11]  [0x00007FFD245FA05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFDABA281F4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFDABD1A251]
+Done
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149
+Exception at PC 0x00007FFDA87F9149

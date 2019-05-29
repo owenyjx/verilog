@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon May 06 19:16:17 2019
+# Process ID: 11316
+# Current directory: F:/2019spring/codex/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21172 F:\2019spring\codex\lab5\lab5.xpr
+# Log file: F:/2019spring/codex/lab5/vivado.log
+# Journal file: F:/2019spring/codex/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/2019spring/codex/lab5/lab5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+relaunch_sim
+relaunch_sim

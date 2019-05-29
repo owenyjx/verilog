@@ -1,0 +1,36 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 54e08808b26e4d898aab2f425a95cdef --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port read [F:/2019spring/codex/lab6/lab5.srcs/sim_1/new/tb.v:32]
+WARNING: [VRFC 10-278] actual bit length 48 differs from formal bit length 32 for port Ai [F:/2019spring/codex/lab6/lab5.srcs/sources_1/new/main.v:51]
+WARNING: [VRFC 10-278] actual bit length 48 differs from formal bit length 32 for port C [F:/2019spring/codex/lab6/lab5.srcs/sources_1/new/main.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.controlunit
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.iMem
+Compiling module xil_defaultlib.dMem
+Compiling module xil_defaultlib.InsReg
+Compiling module xil_defaultlib.MemData_DR
+Compiling module xil_defaultlib.DataSelector_2to1_5
+Compiling module xil_defaultlib.DataSelector_2to1_32
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.A_DR
+Compiling module xil_defaultlib.B_DR
+Compiling module xil_defaultlib.Shiftleft_2
+Compiling module xil_defaultlib.DataSelector_4to1
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_DR
+Compiling module xil_defaultlib.Shiftleft_1
+Compiling module xil_defaultlib.DataSelector_3to1_32
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

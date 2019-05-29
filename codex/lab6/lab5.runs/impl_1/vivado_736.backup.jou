@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri May 10 17:38:28 2019
+# Process ID: 736
+# Current directory: F:/2019spring/codex/lab5/lab5.runs/impl_1
+# Command line: vivado.exe -log DDU.vdi -applog -messageDb vivado.pb -mode batch -source DDU.tcl -notrace
+# Log file: F:/2019spring/codex/lab5/lab5.runs/impl_1/DDU.vdi
+# Journal file: F:/2019spring/codex/lab5/lab5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source DDU.tcl -notrace

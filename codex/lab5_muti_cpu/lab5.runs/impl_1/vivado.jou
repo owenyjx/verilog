@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 10 19:12:22 2019
+# Process ID: 12920
+# Current directory: F:/2019spring/codex/lab5_muti_cpu/lab5.runs/impl_1
+# Command line: vivado.exe -log DDU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DDU.tcl -notrace
+# Log file: F:/2019spring/codex/lab5_muti_cpu/lab5.runs/impl_1/DDU.vdi
+# Journal file: F:/2019spring/codex/lab5_muti_cpu/lab5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source DDU.tcl -notrace

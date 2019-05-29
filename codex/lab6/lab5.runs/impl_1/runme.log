@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log DDU.vdi -applog -m64 -messageDb vivado.pb -mode batch -source DDU.tcl -notrace
+

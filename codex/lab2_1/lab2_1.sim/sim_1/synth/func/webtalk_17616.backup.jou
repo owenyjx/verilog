@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Mar 26 22:35:53 2019
+# Process ID: 17616
+# Current directory: F:/2019spring/codex/lab2_1/lab2_1.sim/sim_1/synth/func
+# Command line: wbtcv.exe -mode batch -source F:/2019spring/codex/lab2_1/lab2_1.sim/sim_1/synth/func/xsim.dir/cu_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/2019spring/codex/lab2_1/lab2_1.sim/sim_1/synth/func/webtalk.log
+# Journal file: F:/2019spring/codex/lab2_1/lab2_1.sim/sim_1/synth/func\webtalk.jou
+#-----------------------------------------------------------
+source F:/2019spring/codex/lab2_1/lab2_1.sim/sim_1/synth/func/xsim.dir/cu_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace

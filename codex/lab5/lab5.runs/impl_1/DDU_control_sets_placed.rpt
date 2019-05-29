@@ -1,0 +1,355 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri May 10 20:47:01 2019
+| Host         : LAPTOP-1QU5OR1V running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file DDU_control_sets_placed.rpt
+| Design       : DDU
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   302 |
+| Unused register locations in slices containing registers |    49 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             328 |          122 |
+| No           | No                    | Yes                    |              33 |            8 |
+| No           | Yes                   | No                     |            8257 |         4678 |
+| Yes          | No                    | No                     |              12 |            5 |
+| Yes          | No                    | Yes                    |             993 |          492 |
+| Yes          | Yes                   | No                     |              72 |           22 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------------+-------------------------------------------+-----------------------------+------------------+----------------+
+|                    Clock Signal                   |               Enable Signal               |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++---------------------------------------------------+-------------------------------------------+-----------------------------+------------------+----------------+
+|  clk_1_BUFG                                       | lock_i_1_n_10                             | rst_IBUF                    |                1 |              1 |
+|  processor/iMem/ALUo_reg[31][0]                   |                                           |                             |                1 |              3 |
+|  processor/controlunit/next_state_reg[3]_i_2_n_10 |                                           |                             |                1 |              4 |
+|  cnt2[3]_i_3_n_10                                 |                                           | cnt2[3]_i_1_n_10            |                1 |              4 |
+|  clk_1_BUFG                                       |                                           | rst_IBUF                    |                2 |              5 |
+|  clk_1_BUFG                                       | processor/controlunit/o_ALUOp_n_10        |                             |                2 |              5 |
+|  clk_1_BUFG                                       | processor/controlunit/o_MemWrite_i_1_n_10 |                             |                3 |              7 |
+|  clk_1_BUFG                                       | reg_addr                                  | rst_IBUF                    |                3 |              7 |
+|  seg_display/clk_5hz                              |                                           |                             |                5 |             15 |
+|  clk_IBUF_BUFG                                    |                                           | seg_display/cnt[0]_i_1_n_10 |                7 |             26 |
+|  clk_IBUF_BUFG                                    |                                           | clear                       |                8 |             31 |
+|  processor/ALU_DR/MemDatao_reg[31]_107[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_108[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_109[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_11[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_110[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_111[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_112[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_113[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_114[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_115[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_116[0]         |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_117[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_118[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_119[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_12[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_120[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_121[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_122[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_123[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_124[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_125[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_126[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_127[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_128[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_129[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_13[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_130[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_131[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_132[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_133[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_134[0]         |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_135[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_136[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_137[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_138[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_139[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_14[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_140[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_141[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_142[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_143[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_144[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_145[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_146[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_147[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_148[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_149[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_15[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_150[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_151[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_152[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_153[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_154[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_155[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_156[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_157[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_158[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_159[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_16[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_160[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_161[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_162[0]         |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_163[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_164[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_165[0]         |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_166[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_167[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_168[0]         |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_169[0]         |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_17[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_170[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_171[0]         |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_172[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_173[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_174[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_175[0]         |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_176[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_177[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_178[0]         |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_179[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_18[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_180[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_181[0]         |                                           | rst_IBUF                    |               12 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_182[0]         |                                           | rst_IBUF                    |               13 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_183[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_184[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_185[0]         |                                           | rst_IBUF                    |               10 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_186[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_187[0]         |                                           | rst_IBUF                    |               12 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_188[0]         |                                           | rst_IBUF                    |               10 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_189[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_19[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_190[0]         |                                           | rst_IBUF                    |               12 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_191[0]         |                                           | rst_IBUF                    |               10 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_192[0]         |                                           | rst_IBUF                    |               12 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_193[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_194[0]         |                                           | rst_IBUF                    |               10 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_195[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_196[0]         |                                           | rst_IBUF                    |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_197[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_198[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_199[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_2[0]           |                                           | rst_IBUF                    |               25 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_20[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_200[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_201[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_202[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_203[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_204[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_205[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_206[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_207[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_208[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_209[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_21[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_210[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_211[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_212[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_213[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_214[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_215[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_216[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_217[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_218[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_219[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_22[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_220[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_221[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_222[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_223[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_224[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_225[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_226[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_227[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_228[0]         |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_229[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_23[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_230[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_231[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_232[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_233[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_234[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_235[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_236[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_237[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_238[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_239[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_24[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_240[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_241[0]         |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_242[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_243[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_244[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_25[0]          |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_26[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_27[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_28[0]          |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_29[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_3[0]           |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_30[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_31[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_32[0]          |                                           | rst_IBUF                    |               24 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_33[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_34[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_35[0]          |                                           | rst_IBUF                    |               26 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_36[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_37[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_38[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_39[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_4[0]           |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_40[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_41[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_42[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_43[0]          |                                           | rst_IBUF                    |               24 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_44[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_45[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_46[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_47[0]          |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_48[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_49[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_5[0]           |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_50[0]          |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_51[0]          |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_52[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_53[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_54[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_55[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_56[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_57[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_58[0]          |                                           | rst_IBUF                    |               14 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_59[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_6[0]           |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_60[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_61[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_62[0]          |                                           | rst_IBUF                    |               14 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_63[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_64[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_65[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_66[0]          |                                           | rst_IBUF                    |               13 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_67[0]          |                                           | rst_IBUF                    |               14 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_68[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_69[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_7[0]           |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_70[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_71[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_72[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_73[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_74[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_75[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_76[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_77[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_78[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_79[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_8[0]           |                                           | rst_IBUF                    |               21 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_80[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_81[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_82[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_83[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_84[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_85[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_86[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_87[0]          |                                           | rst_IBUF                    |               15 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_88[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_89[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_9[0]           |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_90[0]          |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_91[0]          |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_92[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_93[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_94[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_95[0]          |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_96[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_97[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_98[0]          |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_99[0]          |                                           | rst_IBUF                    |               19 |             32 |
+|  processor/controlunit/CLK                        |                                           | rst_IBUF                    |                7 |             32 |
+|  processor/ALU_DR/E[0]                            |                                           | rst_IBUF                    |               20 |             32 |
+|  processor/controlunit/E[0]                       |                                           |                             |               11 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_0[0]           |                                           | rst_IBUF                    |               22 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_1[0]           |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_10[0]          |                                           | rst_IBUF                    |               23 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_100[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_101[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/E[0]                       | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[10][31][0]    | rst_IBUF                    |               12 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[11][31][0]    | rst_IBUF                    |               13 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[12][31][0]    | rst_IBUF                    |               12 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[13][31][0]    | rst_IBUF                    |               15 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[14][31][0]    | rst_IBUF                    |               15 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[15][31][0]    | rst_IBUF                    |               12 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[16][31][0]    | rst_IBUF                    |               19 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[17][31][0]    | rst_IBUF                    |               18 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[18][31][0]    | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[19][31][0]    | rst_IBUF                    |               17 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[20][31][0]    | rst_IBUF                    |               19 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[21][31][0]    | rst_IBUF                    |               17 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[22][31][0]    | rst_IBUF                    |               20 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[23][31][0]    | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[24][31][0]    | rst_IBUF                    |               17 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[25][31][0]    | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[26][31][0]    | rst_IBUF                    |               17 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[27][31][0]    | rst_IBUF                    |               18 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[28][31][0]    | rst_IBUF                    |               18 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[29][31][0]    | rst_IBUF                    |               19 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[2][31][0]     | rst_IBUF                    |               13 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[30][31][0]    | rst_IBUF                    |               18 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[31][31][0]    | rst_IBUF                    |               17 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[3][31][0]     | rst_IBUF                    |               15 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[4][31][0]     | rst_IBUF                    |               14 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[5][31][0]     | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[6][31][0]     | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[7][31][0]     | rst_IBUF                    |               16 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[8][31][0]     | rst_IBUF                    |               11 |             32 |
+|  clk_1_BUFG                                       | processor/iMem/register_reg[9][31][0]     | rst_IBUF                    |               13 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_104[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_102[0]         |                                           | rst_IBUF                    |               16 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_103[0]         |                                           | rst_IBUF                    |               17 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_105[0]         |                                           | rst_IBUF                    |               18 |             32 |
+|  processor/ALU_DR/MemDatao_reg[31]_106[0]         |                                           | rst_IBUF                    |               19 |             32 |
+|  n_0_9_BUFG                                       |                                           | rst_IBUF                    |               24 |             32 |
+|  n_1_10_BUFG                                      |                                           | rst_IBUF                    |               26 |             32 |
+|  n_2_11_BUFG                                      |                                           | rst_IBUF                    |               23 |             32 |
+|  n_3_12_BUFG                                      |                                           | rst_IBUF                    |               27 |             32 |
+|  n_4_13_BUFG                                      |                                           | rst_IBUF                    |               24 |             32 |
+|  n_5_14_BUFG                                      |                                           | rst_IBUF                    |               21 |             32 |
+|  n_6_15_BUFG                                      |                                           | rst_IBUF                    |               21 |             32 |
+|  n_7_16_BUFG                                      |                                           | rst_IBUF                    |               25 |             32 |
+|  n_8_17_BUFG                                      |                                           | rst_IBUF                    |               23 |             32 |
+|  n_9_18_BUFG                                      |                                           | rst_IBUF                    |               22 |             32 |
+|  clk_1_BUFG                                       | mem_addr                                  | rst_IBUF                    |               19 |             65 |
+|  clk_1_BUFG                                       |                                           |                             |              104 |            274 |
++---------------------------------------------------+-------------------------------------------+-----------------------------+------------------+----------------+
+
+

@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file F:\2019spring\codex\lab3_3\lab3_3.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 没有权限

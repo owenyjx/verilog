@@ -1,0 +1,33 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 54e08808b26e4d898aab2f425a95cdef --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.controlunit
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.iMem
+Compiling module xil_defaultlib.dMem
+Compiling module xil_defaultlib.InsReg
+Compiling module xil_defaultlib.MemData_DR
+Compiling module xil_defaultlib.DataSelector_2to1_5
+Compiling module xil_defaultlib.DataSelector_2to1_32
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.A_DR
+Compiling module xil_defaultlib.B_DR
+Compiling module xil_defaultlib.Shiftleft_2
+Compiling module xil_defaultlib.DataSelector_4to1
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_DR
+Compiling module xil_defaultlib.Shiftleft_1
+Compiling module xil_defaultlib.DataSelector_3to1_32
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

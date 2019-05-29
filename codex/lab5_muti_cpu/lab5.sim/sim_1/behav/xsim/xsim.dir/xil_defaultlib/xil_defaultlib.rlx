@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/admin/lab5_muti_cpu/lab5.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sim_1/new/tb.v,1557470301,verilog,,,,tb,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/ip/dist_mem_gen_0_1/sim/dist_mem_gen_0.v,1557304830,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/ALU.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/ALU.v,1557458038,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/DR.v,,ALU;ALUcontrol,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/DR.v,1557314547,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/DataSelector.v,,ALU_DR;A_DR;B_DR;MemData_DR,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/DataSelector.v,1557469715,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/Mem.v,,DataSelector_2to1_32;DataSelector_2to1_5;DataSelector_3to1_32;DataSelector_4to1,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/Mem.v,1557469960,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/PC.v,,dMem;iMem,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/PC.v,1557466170,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/Regfiles.v,,PC,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/Regfiles.v,1557477039,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/Shift.v,,InsReg;RegFile,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/Shift.v,1557314633,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/controlunit.v,,Shiftleft_1;Shiftleft_2,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/controlunit.v,1557463617,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/main.v,,controlunit,,,,,,,,
+C:/Users/admin/lab5_muti_cpu/lab5.srcs/sources_1/new/main.v,1557477001,verilog,,C:/Users/admin/lab5_muti_cpu/lab5.srcs/sim_1/new/tb.v,,processor,,,,,,,,

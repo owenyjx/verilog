@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Fri Apr 19 19:41:04 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="216d2af5c49f4390ba7fa4f18ad9dd69" type="ProjectID"/>
+<property name="ProjectIteration" value="52" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AutoConnectTarget" value="13" type="JavaHandler"/>
+<property name="CloseProject" value="3" type="JavaHandler"/>
+<property name="CoreView" value="3" type="JavaHandler"/>
+<property name="CustomizeCore" value="3" type="JavaHandler"/>
+<property name="EditPaste" value="2" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="51" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="15" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="2" type="JavaHandler"/>
+<property name="RecustomizeCore" value="19" type="JavaHandler"/>
+<property name="RunBitgen" value="44" type="JavaHandler"/>
+<property name="RunImplementation" value="7" type="JavaHandler"/>
+<property name="RunSynthesis" value="12" type="JavaHandler"/>
+<property name="ShowView" value="11" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, PCU (lab4.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, Open target" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="15" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="13" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="lab4.v, 0, 353" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 1, 219" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 1, 297" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 100, 334" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 100, 386" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 101, 338" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 102, 303" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 104, 295, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 104, 299" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 104, 342" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 105, 291" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 106, 298" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 107, 361" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 108, 330" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 109, 339" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 109, 351" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 112, 292" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 112, 295" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 112, 297" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 112, 336" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 114, 298" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 115, 299" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 1154, 282" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 116, 295" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 117, 336" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 117, 373" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 118, 297" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 118, 423" value="2" type="GuiResourceData"/>
+<property name="lab4.v, 118, 446" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 119, 294" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 120, 294, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 120, 355" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 121, 329" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 122, 291" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 123, 361" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 124, 292" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 124, 341" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 125, 337" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 128, 297" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 131, 396" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 132, 315" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 133, 296" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 133, 343" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 134, 446" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 135, 96" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 136, 296" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 139, 421" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 141, 305" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 142, 296" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 144, 295" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 146, 338" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 149, 296" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 151, 292" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 152, 281" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 153, 291" value="2" type="GuiResourceData"/>
+<property name="lab4.v, 153, 300" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 156, 300" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 156, 315" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 157, 305" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 158, 370" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 158, 475" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 163, 298" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 164, 407" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 165, 412" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 168, 296" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 169, 177" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 172, 296, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 173, 318" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 175, 345" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 177, 291" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 178, 190" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 180, 292" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 180, 318" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 195, 287" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 2, 255" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 20, 276" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 201, 322" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 208, 302" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 237, 280" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 242, 368" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 244, 98" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 25, 195" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 255, 367" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 256, 235" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 262, 214" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 264, 360" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 265, 245" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 265, 346" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 266, 521" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 28, 349" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 292, 242" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 296, 379" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 30, 123" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 303, 165" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 332, 431" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 336, 505" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 345, 517" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 350, 324" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 401, 267" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 496, 110" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 510, 294" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 58, 395" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 68, 166" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 76, 238" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 76, 414" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 90, 332" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 92, 332" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 92, 475" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 93, 181, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 93, 274" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 94, 450" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 95, 230" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 96, 340" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 97, 344" value="1" type="GuiResourceData"/>
+<property name="lab4.v, 99, 333, false, false, false, false, true" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="59" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="36" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
